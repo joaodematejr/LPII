@@ -1,31 +1,18 @@
-numero1 = "Um\n"
-numero2 = "Dois\n"
-numero3 = "Três\n"
-numero4 = "Quatro\n"
-numero5 = "Cinco\n"
-
-numero = -1
-
-while numero != 0:
-    numero = int (input("Para encerrar o programa digite 0 \nDigite um número inteiro entre 1 e 5: "))
-
-    if numero < 1 or numero > 5:
-        print ("Número inválido! Para encerrar o programa digite 0 \n Digite um número entre 1 e 5: ")
-
-    if numero == 1:
-        print(numero1)
-
-    if numero == 2:
-        print(numero2)
-    
-    if numero == 3:
-        print(numero3)
-    
-    if numero == 4:
-        print (numero4)
-    
-    if numero == 5:
-        print (numero5)
-
-print("Programa encerrado!")
-    
+#mostra a mensagem que sera inputada
+print('Digite um número de 1 a 5:')
+numbero = int(input()) #variavel que pede a entrada de um numero inteiro #
+# condiçao 
+if numbero == 0: #Se o numero for 0  mostrara a mensagem
+    print("Numero 0")
+elif numbero == 1:#Se o numero for 1  mostrara a mensagem
+    print("Numero 1")
+elif numbero == 2:#Se o numero for 2  mostrara a mensagem
+    print("Numero 2")
+elif numbero == 3:#Se o numero for 3  mostrara a mensagem
+    print("Numero 3")
+elif numbero == 4:#Se o numero for 4  mostrara a mensagem
+    print("Numero 4")
+elif numbero == 5:#Se o numero for 5  mostrara a mensagem
+    print("Numero 5")
+else: #Se o numero for deferente de 1 a 5  mostrara a mensagem
+    print("Numero Invalido")
